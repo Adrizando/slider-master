@@ -1,0 +1,102 @@
+* {
+box-sizing: border-box;
+}
+
+body { font-family: Inter, sans-serif;
+  Font size: 32px
+  font-Weights: 300, 500, 700;
+  max-width: 100vw;
+}
+
+.gans { position: absolute;
+  z-index: -2;
+  left: 400px;
+  top: 250px
+}
+.welle { position: absolute;
+  z-index: -2;
+  left: 0px;
+  top: 100%;
+}
+.punkte { position: absolute;
+  z-index: -2;
+  right: 200px;
+  top: 10%;
+}
+
+.alles{display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#container1{
+  width: 660px;
+  font-size: 32px;
+margin: 80px;
+padding: 10px;
+position: absolute;
+left: 200px;
+height: 350px
+}
+#container2{
+  width: 660px;
+  font-size: 32px;
+margin: 80px;
+padding: 10px;
+position: absolute;
+left: 200px;
+height: 350px
+}
+
+.text { font-size: 300;
+  color: hsl(240, 38%, 20%);
+}
+
+.tanya { position: relative;
+  margin: 150px 120px 200px 120px;
+  z-index: -1;
+  left: 290px;
+}
+.john { position: relative;
+  margin: 150px 120px 200px 120px;
+  z-index: -1;
+  left: 290px;
+}
+.person {
+  display: flex;
+}
+h4 {
+  color: hsl(240, 38%, 20%);
+}
+
+h5 {
+  color: hsl(240, 18%, 77%);
+  margin-left: 15px;
+  padding-top: 5px;
+}
+
+.icon-container {
+  background-color: lightblue;
+  width: 80px;
+  height: 40px;
+  z-index: 5;
+position: absolute;
+right: 700px;
+bottom: 100px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-around;
+overflow: hidden;
+}
+
+svg {
+}
+
+#container2, .john{
+display: none;
+}
+
+.attribution {
+  justify-content: flex-end;
+}
